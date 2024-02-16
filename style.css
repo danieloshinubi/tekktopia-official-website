@@ -240,9 +240,21 @@ nav {
 }
 
 .list-of-services {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
+}
+
+.services-up {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+
+.services-down {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
 }
 
 .list-of-services img {
