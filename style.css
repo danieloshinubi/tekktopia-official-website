@@ -199,6 +199,10 @@ nav {
     width: 100%;
 }
 
+.hire-us-section {
+    background-color: #E2F0F9
+}
+
 
 /* --------------HIRE US SECTION--------------- */
 
@@ -214,7 +218,8 @@ nav {
 }
 
 .our-services,
-.our-milestones {
+.our-milestones,
+.testimonials {
     margin-bottom: 5%;
     font-size: 40px;
     text-align: center;
@@ -322,21 +327,6 @@ nav {
     opacity: 30%;
 }
 
-.info-gathering h1 {
-    /* font-weight: 600;
-    font-size: 22px;
-    margin-bottom: 10%; */
-}
-
-.info-gathering {
-    /* display: block;
-    width: 25%;
-    height: 240px;
-    align-items: center;
-    margin-bottom: 10%; */
-    /* margin-right: 15%; */
-}
-
 .milestones {
     width: 85%;
     margin: auto;
@@ -364,14 +354,25 @@ nav {
     margin-bottom: 10%;
 }
 
-.strategy-planning {
-    /* display: block;
-    width: 25%;
-    height: 240px;
-    align-items: center;
-    margin-bottom: 10%; */
-    /* margin-right: 15%; */
+
+/* ------------END OF MILESTONES ------------*/
+
+
+/* ------------DEADLINES ------------*/
+
+.deadline-section {
+    margin-bottom: 5%;
+}
+
+.deadline-section img {
+    width: 100%;
 }
 
 
-/* ------------END OF MILESTONES ------------*/
+/* ------------END OF DEADLINES ------------*/
+
+
+/* ------------TESTIMONIALS ------------*/
+
+
+/* ------------END OF TESTIMONIALS ------------*/
