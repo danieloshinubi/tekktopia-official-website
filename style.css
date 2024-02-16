@@ -5,8 +5,18 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Nunito-Sans;
+    src: url(./NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Nunito-Sans-italic;
+    src: url(./NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Nunito-Sans;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -16,9 +26,10 @@ body {
     padding-left: 8%; */
 }
 
-.section {
+
+/* .section {
     padding: 3rem 0 2.5rem;
-}
+} */
 
 button {
     cursor: pointer;
@@ -213,17 +224,18 @@ nav {
     /* margin: auto; */
 }
 
-.transformation button {
+.transformation button,
+.why-us-writting button {
     padding: 10px 20px;
     background-color: #286FB4;
     color: white;
+    gap: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
-    /* padding: 1rem; */
+    width: 159px;
     line-height: 20px;
-    /* text-decoration: none; */
     margin-top: 5%;
     background-color: #286FB4;
 }
@@ -234,13 +246,16 @@ nav {
 }
 
 .transformation h1 {
-    font-size: 35px;
+    font-size: 45px;
     color: #202942;
+    line-height: 70px;
+    font-weight: 600;
 }
 
 .transformation p {
-    line-height: 2.5;
+    line-height: 30px;
     color: #4F5E71;
+    font-weight: 400;
 }
 
 .trans-woman {
@@ -250,4 +265,83 @@ nav {
 .trans-woman img {
     height: 100%;
     width: 100%;
+}
+
+.services-section {
+    padding: 3rem 0 2.5rem;
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.our-services {
+    margin-bottom: 5%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.list-of-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-of-services img {
+    width: 100px;
+    height: 100px;
+}
+
+.list-of-services h1 {
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list-of-services p {
+    margin-top: 10%;
+}
+
+.ui-ux-design {
+    margin-right: 5%;
+}
+
+.web-dev {
+    margin-right: 5%;
+}
+
+.backend-dev {
+    margin-right: 5%;
+}
+
+.why-us {
+    background-color: #E2F0F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-us-writting {
+    display: block;
+}
+
+.why-us-writting h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #252A31;
+}
+
+.why-us-writting h2 {
+    color: #232324;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.why-us-writting p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5E71;
+    margin-top: 5%;
 }
