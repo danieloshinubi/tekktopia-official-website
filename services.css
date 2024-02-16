@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Nunito-Sans;
+    src: url(./NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Nunito-Sans-italic;
+    src: url(./NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+body {
+    font-family: Nunito-Sans;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    /* padding-right: 8%;
+    padding-left: 8%; */
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* ---------------------------NAV------------------------------ */
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    /* padding-left: 0rem; */
+    overflow: hidden;
+    /* align-items: center; */
+}
+
+.nav-ul {
+    /* display: flex; */
+    width: 100%;
+}
+
+.navbar ul li {
+    list-style: none;
+    /* font-size: 14px; */
+    margin-right: 0px;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+
+.navbar ul li:hover {
+    font-size: larger;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.underline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.underline:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.nav_header {
+    /* height: 14vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8%;
+    padding-left: 8%;
+    position: sticky;
+    background: #286FB4;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 8px #888888;
+}
+
+.nav_button img {
+    cursor: pointer;
+}
+
+.nav_link.button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #286FB4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.nav_link.button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.nav_link:hover {
+    /* background-color: orange; */
+    color: orange;
+}
+
+.hamburger {
+    display: none;
+    float: right;
+}
