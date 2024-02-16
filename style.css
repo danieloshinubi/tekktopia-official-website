@@ -241,6 +241,7 @@ nav {
 
 .list-of-services {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -267,8 +268,31 @@ nav {
     margin-right: 5%;
 }
 
-.backend-dev {
+.mobile-dev {
     margin-right: 5%;
+}
+
+.hard-sol {
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.it-support {
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.cloud-sol {
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.network-infra {
+    margin-top: 5%;
+}
+
+.services-box-resize {
+    width: 283px;
 }
 
 
@@ -349,16 +373,18 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .box-style {
     display: block;
-    width: 25%;
+    width: 27%;
     height: 240px;
     align-items: center;
     margin-bottom: 10%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
+    /* margin-right: 1%; */
 }
 
 .box-style h1 {
@@ -367,7 +393,7 @@ nav {
     margin-bottom: 10%;
 }
 
-
+.strategy-planning
 /* ------------END OF MILESTONES ------------*/
 
 
