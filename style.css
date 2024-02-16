@@ -26,24 +26,9 @@ body {
     padding-left: 8%; */
 }
 
-
-/* .section {
-    padding: 3rem 0 2.5rem;
-} */
-
 button {
     cursor: pointer;
 }
-
-
-/* .grey {
-    color: #A1A1A1;
-} */
-
-
-/* .blue {
-    color: #0089EC;
-} */
 
 
 /* ---------------------------NAV------------------------------ */
@@ -123,12 +108,6 @@ nav {
     align-items: center;
 }
 
-
-/* .nav_header.nav_logo {
-    position: relative;
-    justify-content: left;
-} */
-
 .nav_button img {
     cursor: pointer;
 }
@@ -154,56 +133,6 @@ nav {
 }
 
 
-/* -------------Home Page--------------- */
-
-
-/* .home {
-    background-color: #E2F0F9;
-    overflow: hidden;
-    height: 471px;
-} */
-
-
-/* .hm_content {
-    margin-top: 10%;
-} */
-
-
-/* .home_page_content {
-    display: flex;
-    /* font-size: 23px; */
-
-
-/* line-height: 27px; */
-
-
-/* word-spacing: 9px; */
-
-
-/* .home_page_content h1 {
-    font-size: 35px;
-} */
-
-
-/* .hm_image {
-    width: 450px;
-    margin-top: 30px;
-    margin-left: 250px;
-} */
-
-
-/* .trans-woman {
-    display: block;
-    box-sizing: border-box;
-} */
-
-
-/* For Media queries */
-
-
-/* For screens smaller than 768px (mobile devices) */
-
-
 /* @media screen and (max-width: 768px) {
     .nav_menu {
         display: none;
@@ -215,6 +144,9 @@ nav {
         display: none;
     }
 } */
+
+
+/* --------------HIRE US SECTION--------------- */
 
 .hire-us {
     width: 100%;
@@ -267,12 +199,18 @@ nav {
     width: 100%;
 }
 
+
+/* --------------HIRE US SECTION--------------- */
+
+
+/* -----------OUR SERVICES SECTION---------- */
+
 .services-section {
     padding: 3rem 0 2.5rem;
     display: block;
     width: 85%;
     margin: auto;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .our-services {
@@ -314,6 +252,12 @@ nav {
     margin-right: 5%;
 }
 
+
+/* ----------- END OUR SERVICES SECTION---------- */
+
+
+/* --------WHY US SECTION------------------ */
+
 .why-us {
     background-color: #E2F0F9;
     display: flex;
@@ -345,3 +289,6 @@ nav {
     color: #4F5E71;
     margin-top: 5%;
 }
+
+
+/* ------END OF WHY US SECTION */
