@@ -11,45 +11,49 @@
 </head>
 
 <body>
-
+    <!-- --------------------------------------HEADER (NAV BARS)---------------------------------------------------------------------------------- -->
     <header class="nav_header">
-        <div class="nav-width-alignment">
-            <a href="#index" class="nav_logo "><img src="./images/real-template-logo.png" alt="logo" style=" height: 130px;"></a>
+        <nav class="navbar " id="navbar ">
+            <a href="#index" class="company-logo "><img src="./images/real-template-logo.png" alt="logo" style=" height: 130px;"></a>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav-ul">
+                    <li>
+                        <a href="#home " class="nav_link underline">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about " class="nav_link underline">About</a>
+                    </li>
+                    <li>
+                        <a href="#services " class="nav_link underline">Services</a>
+                    </li>
+                    <li>
+                        <a href="#projects " class="nav_link underline">Our Projects</a>
+                    </li>
+                    <li>
+                        <a href="#blog " class="nav_link underline">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact " class="nav_link button">Connect With Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ----------------------------HAMBURGER FOR THE RESPONSIVENESS-------------------- -->
+            <a href="#" class="hamburger" onclick="toggleNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </a>
+        </nav>
 
-            <nav class="navbar " id="navbar ">
-                <div class="nav_menu" id="nav_menu">
-
-                    <ul class="nav-ul">
-                        <li>
-                            <a href="#home " class="nav_link underline">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about " class="nav_link underline">About</a>
-                        </li>
-                        <li>
-                            <a href="#services " class="nav_link underline">Services</a>
-                        </li>
-                        <li>
-                            <a href="#projects " class="nav_link underline">Our Projects</a>
-                        </li>
-                        <li>
-                            <a href="#blog " class="nav_link underline">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-                <a href="#" class="hamburger" onclick="toggleNav()">&#9776;</a>
-
-
-                <div class="contact_us">
-                    <ul>
-                        <li>
-                            <a href="#contact " class="nav_link button">Connect With Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
     </header>
+    <!-- --------------------------------------------------------END OF HEADER (NAV BARS)----------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
 
     <main>
         <!------------------------------------------- TRANSFORMATION SECTION------------------------------------------------------>
@@ -228,6 +232,26 @@
         <!-- ----------------------------------------------------TESTIMONIALS-------------------------------------- -->
         <SECTION class="testimonials-section">
             <h1 class="testimonials">Testimonials</h1>
+            <div class="testimonial-boxes">
+                <div class="first-testimonial each-testimonial-box">
+                    <div class="star-styling"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit tellus eu velit pellentesque tristique at id lorem. Sed semper enim vehicula orci efficitur dictum faucibus et elit. Praesent sit amet nunc quam. Vestibulum vehicula
+                        tristique dolor, </p>
+                    <h3>Amori Ademakinwa</h3>
+                </div>
+                <div class="each-testimonial-box">
+                    <div class="star-styling"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit tellus eu velit pellentesque tristique at id lorem. Sed semper enim vehicula orci efficitur dictum faucibus et elit. Praesent sit amet nunc quam. Vestibulum vehicula
+                        tristique dolor, </p>
+                    <h3>Ireoluwa Adeoluwa</h3>
+                </div>
+                <div class="each-testimonial-box">
+                    <div class="star-styling"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit tellus eu velit pellentesque tristique at id lorem. Sed semper enim vehicula orci efficitur dictum faucibus et elit. Praesent sit amet nunc quam. Vestibulum vehicula
+                        tristique dolor, </p>
+                    <h3>Tife Ibrahim</h3>
+                </div>
+            </div>
         </SECTION>
         <!-- ----------------------------------------------------END OF TESTIMONIALS-------------------------------------- -->
     </main>

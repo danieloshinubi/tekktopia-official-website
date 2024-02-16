@@ -33,23 +33,28 @@ button {
 
 /* ---------------------------NAV------------------------------ */
 
-nav {
-    text-align: center;
-}
-
-.navbar {
-    display: flex;
-    padding-left: 0rem;
-    overflow: hidden;
-}
-
-.nav_menu {
+.nav-ul {
     display: flex;
     align-items: center;
 }
 
-.nav-ul {
+nav {
+    /* text-align: center; */
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    /* padding-left: 0rem; */
+    overflow: hidden;
+    /* align-items: center; */
+}
+
+.nav-ul {
+    /* display: flex; */
     width: 100%;
 }
 
@@ -86,26 +91,17 @@ nav {
 }
 
 .nav_header {
-    height: 14vh;
+    /* height: 14vh; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 8%;
     padding-left: 8%;
-    top: 0;
     position: sticky;
     background: #286FB4;
     box-sizing: border-box;
-    /* box-shadow: 0 4px 0px 0 rgba(0, 0, 0, .4); */
     box-shadow: 2px 3px 8px #888888;
-}
-
-.nav-width-alignment {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav_button img {
@@ -122,10 +118,10 @@ nav {
     display: inline-block;
 }
 
-
-/* .nav_link.button:hover {
-    background-color: #0056b3; 
-} */
+.nav_link.button:hover {
+    background-color: orange;
+    color: white;
+}
 
 .hamburger {
     display: none;
@@ -170,6 +166,12 @@ nav {
     line-height: 20px;
     margin-top: 5%;
     background-color: #286FB4;
+}
+
+.transformation button:hover,
+.why-us-writting button:hover {
+    background-color: orange;
+    color: white;
 }
 
 .trans-margin {
@@ -373,6 +375,47 @@ nav {
 
 
 /* ------------TESTIMONIALS ------------*/
+
+.testimonials-section {
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.testimonial-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.each-testimonial-box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.each-testimonial-box p {
+    margin-top: 10%;
+    color: #4F5E71;
+    font-weight: 400;
+}
+
+.each-testimonial-box h3 {
+    margin-top: 10%;
+    font-weight: 400;
+}
+
+.star-styling span {
+    color: #FFE234;
+    font-size: x-large;
+    border-radius: 1px;
+}
 
 
 /* ------------END OF TESTIMONIALS ------------*/
