@@ -376,6 +376,8 @@ nav {
     font-weight: 600;
     font-size: 40px;
     opacity: 30%;
+    width: 40px;
+    height: 40px;
 }
 
 .milestones {
