@@ -444,7 +444,7 @@ nav {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     height: 300px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -670,6 +670,212 @@ nav {
     }
 }
 
-@media only screen and (max-width: 768px) {
-    /* Styles for small screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .trans-margin {
+        margin: auto;
+        width: 80%;
+        order: 2;
+    }
+    .hire-us {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+    .trans-woman {
+        width: 100%;
+        order: 1;
+    }
+    .services-up {
+        display: block;
+        /* align-items: center; */
+    }
+    .services-down {
+        display: block;
+    }
+    .services-box-resize {
+        width: 100%;
+        /* align-items: center; */
+    }
+    .list-of-services {
+        /* margin: auto; */
+        text-align: center;
+    }
+    .why-us-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .milestone-boxes {
+        display: block;
+    }
+    .box-style {
+        display: block;
+        width: 90%;
+        height: 240px;
+        align-items: center;
+        margin-bottom: 10%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+        /* margin-right: 1%; */
+    }
+    .milestones {
+        width: 90%;
+        margin: auto;
+    }
+    /* milestones-boxes is what making the mileston boxes come outside for some reasons comment out the command immediately below to understand what I mean */
+    .milestone-boxes {
+        display: flex;
+        text-align: center;
+    }
+    .testimonial-boxes {
+        display: block;
+    }
+    .testimonials-section {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .each-testimonial-box {
+        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 300px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 10%;
+    }
+    .transformation button,
+    .why-us-writting button {
+        margin-bottom: 15%;
+    }
+    .nav_menu {
+        display: none;
+    }
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 50px;
+        cursor: pointer;
+        appearance: none;
+        border: none;
+        outline: none;
+        background: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .trans-margin {
+        margin: auto;
+        width: 80%;
+        order: 2;
+    }
+    .hire-us {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+    .trans-woman {
+        width: 100%;
+        order: 1;
+    }
+    .services-up {
+        display: block;
+        /* align-items: center; */
+    }
+    .services-down {
+        display: block;
+    }
+    .services-box-resize {
+        width: 100%;
+        /* align-items: center; */
+    }
+    .list-of-services {
+        /* margin: auto; */
+        text-align: center;
+    }
+    .why-us-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .milestone-boxes {
+        display: block;
+    }
+    .box-style {
+        display: block;
+        width: 90%;
+        height: 240px;
+        align-items: center;
+        margin-bottom: 10%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+        /* margin-right: 1%; */
+    }
+    .milestones {
+        width: 90%;
+        margin: auto;
+    }
+    /* milestones-boxes is what making the mileston boxes come outside for some reasons comment out the command immediately below to understand what I mean */
+    .milestone-boxes {
+        display: flex;
+        text-align: center;
+    }
+    .testimonial-boxes {
+        display: block;
+    }
+    .testimonials-section {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .each-testimonial-box {
+        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 300px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 10%;
+    }
+    .transformation button,
+    .why-us-writting button {
+        margin-bottom: 15%;
+    }
+    .nav_menu {
+        display: none;
+    }
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 50px;
+        cursor: pointer;
+        appearance: none;
+        border: none;
+        outline: none;
+        background: none;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1240px) {
+    .transformation button,
+    .why-us-writting button {
+        margin-bottom: 15%;
+    }
+    .testimonial-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
